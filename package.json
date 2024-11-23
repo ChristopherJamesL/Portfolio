@@ -7,20 +7,20 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "gh-pages-build": "parcel build --public-url .",
+    "gh-pages-build": "parcel build --public-url ./",
     "deploy": "npm run gh-pages-build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChristopherJamesL/Portfolio.git"
+    "url": "git+https://github.com/ChristopherJamesL/Website.git"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChristopherJamesL/Portfolio/issues"
+    "url": "https://github.com/ChristopherJamesL/Website/issues"
   },
-  "homepage": "https://ChristopherJ.github.io/P",
+  "homepage": "https://Christopher.github.io/W",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "gh-pages": "^6.2.0",
