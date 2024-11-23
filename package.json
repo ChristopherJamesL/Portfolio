@@ -7,7 +7,8 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "gh-pages-build": "parcel build --public-url ."
+    "gh-pages-build": "parcel build --public-url .",
+    "deploy": "npm run gh-pages-build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,10 @@
   "bugs": {
     "url": "https://github.com/ChristopherJamesL/Portfolio/issues"
   },
-  "homepage": "https://github.com/ChristopherJamesL/Portfolio#readme",
+  "homepage": "https://ChristopherJ.github.io/P",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
+    "gh-pages": "^6.2.0",
     "parcel": "^2.7.0",
     "prettier": "^2.7.1"
   },
